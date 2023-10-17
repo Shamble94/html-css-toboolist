@@ -16,7 +16,9 @@
     margin-right: 150px;
     border-color: rgb(244, 240, 241);
 }
-
+li{
+    list-style-type: none;
+}
 .check{
     border: 1px solid green;
     border-radius: 50%;
