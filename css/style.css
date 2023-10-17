@@ -3,3 +3,100 @@
     margin: 0px;
     box-sizing: border-box;
 }
+.logo{
+    vertical-align: middle;
+    line-height: 120px;
+}
+
+
+.titolo{
+    vertical-align:middle;
+    display: inline-block;
+    font-size: 50px;
+    text-align: center;
+}
+.task{
+    
+    border-radius:10%;
+    background-color: rgb(37, 137, 214);
+    padding: 8px;
+    border-color: rgb(216, 216, 217);
+}
+.section{
+    border-radius:10%;
+    padding: 8px;
+    border-color: rgb(216, 216, 217);
+    
+}
+.addsection{
+    color: rgb(187, 187, 187)
+}
+.sfondo
+{
+    background-color: lightgrey;
+}
+.newtask{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.editorial{
+    border-radius:30%;
+    background-color: rgb(37, 137, 214);
+    padding: 4px;
+    border-color: rgb(216, 216, 217);
+    color: #fff;
+    text-align: center;
+    font-size: 12px;
+
+}
+.today{
+    margin-top: 30px;
+}
+
+.sezione3{
+    line-height: 2.5;
+}
+
+.q1goals{
+    border-radius:30%;
+    background-color: rgb(214, 37, 205);
+    padding: 4px;
+    border-color: rgb(216, 216, 217);
+    color: #fff;
+    text-align: center;
+    font-size: 12px;
+}
+
+.recruiting{
+    border-radius:30%;
+    background-color: rgb(37, 214, 120);
+    padding: 4px;
+    border-color: rgb(216, 216, 217);
+    color: #fff;
+    text-align: center;
+    font-size: 12px;
+}
+.mobile{
+    border-radius:30%;
+    background-color: rgb(214, 93, 37);
+    padding: 4px;
+    border-color: rgb(216, 216, 217);
+    color: #fff;
+    text-align: center;
+    font-size: 12px;
+}
+
+
+
+
+
+#container{
+    max-width: 800px;
+    background-color: rgb(255, 255, 255);
+    padding: 3%;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-color: rgb(255, 127, 174);
+}
