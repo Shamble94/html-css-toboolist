@@ -2,18 +2,35 @@
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
+
+#container{
+    max-width: 900px;
+    background-color: rgb(255, 255, 255);
+    padding: 3%;
+    border-radius: 10px;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-color: rgb(255, 127, 174);
+}
+
+.sfondo
+{
+    background-color: rgb(248, 246, 246);
+}
+
 .logo{
-    vertical-align: middle;
-    line-height: 120px;
+   margin-top: auto;
+   margin-right: auto;
 }
 
 
 .titolo{
     vertical-align:middle;
     display: inline-block;
-    font-size: 50px;
-    text-align: center;
+    font-size: 40px;
+    margin-bottom: auto;
 }
 .task{
     
@@ -31,9 +48,7 @@
 .addsection{
     color: rgb(187, 187, 187)
 }
-.sfondo
-{
-    background-color: lightgrey;
+
 }
 .newtask{
     margin-top: 20px;
@@ -49,17 +64,17 @@
     font-size: 12px;
 
 }
-.today{
+h2{
     margin-top: 30px;
 }
 
-.sezione3{
+.altezzatesto{
     line-height: 2.5;
 }
 
 .q1goals{
     border-radius:30%;
-    background-color: rgb(214, 37, 205);
+    background-color: rgb(139, 21, 133);
     padding: 4px;
     border-color: rgb(216, 216, 217);
     color: #fff;
@@ -85,18 +100,26 @@
     text-align: center;
     font-size: 12px;
 }
-
-
-
-
-
-#container{
-    max-width: 800px;
-    background-color: rgb(255, 255, 255);
-    padding: 3%;
-    border-radius: 10px;
-    margin-top: 15px;
-    margin-left: 20%;
-    margin-right: 20%;
-    border-color: rgb(255, 127, 174);
+.website{
+    border-radius:30%;
+    background-color: rgb(214, 37, 128);
+    padding: 4px;
+    border-color: rgb(216, 216, 217);
+    color: #fff;
+    text-align: center;
+    font-size: 12px;
 }
+.sales{
+    border-radius:30%;
+    background-color: rgb(28, 199, 13);
+    padding: 4px;
+    border-color: rgb(216, 216, 217);
+    color: #fff;
+    text-align: center;
+    font-size: 12px;
+}
+
+
+
+
+
