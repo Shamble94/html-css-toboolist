@@ -5,37 +5,6 @@
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
-#container{
-    background-color: rgb(255, 255, 255);
-    padding-top: 20px;
-    padding-left: 40px;
-    padding-bottom: 40px;
-    border-radius: 10px;
-    margin-top: 10px;
-    margin-left: 150px;
-    margin-right: 150px;
-    border-color: rgb(244, 240, 241);
-}
-li{
-    list-style-type: none;
-}
-.check{
-    border: 1px solid green;
-    border-radius: 50%;
-    color: green;
-}
-.cross{
-    border: 1px solid red;
-    border-radius: 50%;
-    color: red;
-}
-.sfondo
-{
-     background-color: rgba(0, 0, 0, 0.1);
-     padding: 30px;
-     margin-top: 10px;
-    }
-
 .logo{
     height: 60px;
     vertical-align: middle;
@@ -44,43 +13,64 @@ li{
     margin-left: 10px;
 }
 
-
 .logo-text{
     vertical-align:middle;
     display: inline-block;
     font-size: 40px;
-    
 }
+
+.sfondo
+{
+     background-color: rgba(149, 149, 149, 0.1);
+     padding: 30px;
+     margin-top: 10px;
+    }
+
+#container{
+    background-color: rgb(255, 255, 255);
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-bottom: 40px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 150px;
+    margin-right: 150px;
+    border-color: rgb(244, 240, 241);
+}
+
 .task{
     
-    border-radius:10%;
+    border-radius:5px;
     background-color: rgb(37, 137, 214);
-    padding: 8px;
+    padding: 6px;
     border-color: rgb(216, 216, 217);
 }
 .section{
-    border-radius:10%;
-    padding: 8px;
+    border-radius: 5px;
+    padding: 6px;
     border-color: rgb(216, 216, 217);
-    color: rgb(187, 187, 187)
+    color: rgb(187, 187, 187);
+    background-color:#fff;
     
 }
 
-
-.newtask{
-    margin-top: 20px;
-    margin-bottom: 10px;
+li{
+    list-style-type: none;
 }
-.editorial{
-    border-radius:30%;
-    background-color: rgb(37, 137, 214);
-    padding: 4px;
-    border-color: rgb(216, 216, 217);
-    color: #fff;
-    text-align: center;
-    font-size: 12px;
-
+.check{
+    border: 1px solid green;
+    border-radius: 50%;
+    color: green;
+    padding: 1px;
+   
 }
+.cross{
+    border: 1px solid red;
+    border-radius: 50%;
+    color: red;
+    padding: 1px;
+}
+
 h2{
     margin-top: 30px;
 }
@@ -89,51 +79,61 @@ h2{
     line-height: 2.5;
 }
 
-.q1goals{
-    border-radius:30%;
-    background-color: rgb(139, 21, 133);
-    padding: 4px;
+.editorial{
+    border-radius:10px;
+    background-color: rgb(37, 137, 214);
+    padding: 6px;
     border-color: rgb(216, 216, 217);
     color: #fff;
     text-align: center;
-    font-size: 12px;
+    font-size: 10px;
+}
+
+.q1goals{
+    border-radius:10px;
+    background-color: rgb(139, 21, 133);
+    padding: 6px;
+    border-color: rgb(216, 216, 217);
+    color: #fff;
+    text-align: center;
+    font-size: 10px;
 }
 
 .recruiting{
-    border-radius:30%;
+    border-radius:10px;
     background-color: rgb(37, 214, 120);
-    padding: 4px;
+    padding: 6px;
     border-color: rgb(216, 216, 217);
     color: #fff;
     text-align: center;
-    font-size: 12px;
+    font-size: 10px;
 }
 .mobile{
-    border-radius:30%;
+    border-radius:10px;
     background-color: rgb(214, 93, 37);
-    padding: 4px;
+    padding: 6px;
     border-color: rgb(216, 216, 217);
     color: #fff;
     text-align: center;
-    font-size: 12px;
+    font-size: 10px;
 }
 .website{
-    border-radius:30%;
+    border-radius:10px;
     background-color: rgb(214, 37, 128);
-    padding: 4px;
+    padding: 6px;
     border-color: rgb(216, 216, 217);
     color: #fff;
     text-align: center;
-    font-size: 12px;
+    font-size: 10px;
 }
 .sales{
-    border-radius:30%;
+    border-radius:10px;
     background-color: rgb(28, 199, 13);
-    padding: 4px;
+    padding: 6px;
     border-color: rgb(216, 216, 217);
     color: #fff;
     text-align: center;
-    font-size: 12px;
+    font-size: 10px;
 }
 
 
